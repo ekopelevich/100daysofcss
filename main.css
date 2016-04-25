@@ -12,6 +12,8 @@ body{
   background-color: #000;
 }
 
+/*one */
+
 .one {
   color: #fff;
   background-image: linear-gradient(45deg, #43399F 10%, #4EC5C9);
@@ -42,8 +44,8 @@ body{
   background-color: #fff;
   width: 25px;
   height: 96px;
-  border-radius: 2px;
-  box-shadow: 2px 2px 8px 2px rgba(77, 77, 77, .3);
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, .2);
   z-index: 100;
 }
 
@@ -53,7 +55,7 @@ body{
   left: 100px;
   width: 20px;
   height: 40px;
-  border-radius: 2px;
+  border-radius: 3px;
   transform: rotate(45deg);
 }
 
@@ -63,7 +65,7 @@ body{
   border: 22px solid #fff;
   border-radius: 50%;
   margin-left: -10px;
-  box-shadow: 2px 2px 8px 2px rgba(77, 77, 77, .3);
+  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, .2);
 }
 
 .first-zero {
@@ -79,4 +81,23 @@ body{
 .one h2 {
   font-size: 1.5em;
   font-weight: 100;
+}
+
+/*two*/
+
+.two {
+  background-color: #3FAF82;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.two .bar {
+  background-color: #FFF;
+  width: 80px;
+  height: 8px;
+  border-radius: 2px;
+  margin: 7px auto;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
